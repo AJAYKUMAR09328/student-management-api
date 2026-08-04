@@ -43,6 +43,8 @@ Swagger UI
 
 Get  Student by id
 <img width="1907" height="599" alt="image" src="https://github.com/user-attachments/assets/8a3cbcce-56ae-44b9-8bfa-a8d58dcf2ea8" />
+<img width="1725" height="322" alt="image" src="https://github.com/user-attachments/assets/812492e8-6633-460f-a629-6fcb9cbf4959" />
+
 
 Get Student by email id 
 <img width="1880" height="595" alt="image" src="https://github.com/user-attachments/assets/807cd439-ba5e-472d-89a0-1910890e35f5" />
