@@ -38,20 +38,28 @@ API Endpoints
 Screenshots
 
 Swagger UI
-<img width="1890" height="860" alt="image" src="https://github.com/user-attachments/assets/335c8248-208e-45d6-8a82-7a098cfe5108" />
-<img width="1890" height="740" alt="image" src="https://github.com/user-attachments/assets/03cbbaa5-1820-4f58-a4dc-96412d5573a8" />
+<img width="1474" height="923" alt="image" src="https://github.com/user-attachments/assets/7acad3f8-4ea3-4fcb-9c94-331e54cf8f4f" />
+
+
+Schema
+<img width="1240" height="502" alt="image" src="https://github.com/user-attachments/assets/6ce4a511-15c5-4fa1-b8be-b72a571c5f3c" />
+
 
 Get  Student by id
 <img width="1907" height="599" alt="image" src="https://github.com/user-attachments/assets/8a3cbcce-56ae-44b9-8bfa-a8d58dcf2ea8" />
+
 <img width="1725" height="322" alt="image" src="https://github.com/user-attachments/assets/812492e8-6633-460f-a629-6fcb9cbf4959" />
 
 
 Get Student by email id 
 <img width="1880" height="595" alt="image" src="https://github.com/user-attachments/assets/807cd439-ba5e-472d-89a0-1910890e35f5" />
+
 <img width="1882" height="755" alt="image" src="https://github.com/user-attachments/assets/3cd3180e-6a93-45c1-9ff0-8e1ce0f45617" />
 
 We can download response in json 
+
 example:
+
 {
   "id": 1,
   "firstName": "Ajay Kumar",
@@ -108,8 +116,7 @@ The REST APIs can be tested using:
 
 Swagger URL
 
-http://localhost:8080/swagger-ui/index.html
-
+https://student-management-api-zycl.onrender.com/swagger-ui/index.html#/
 
 Future Improvements
 
