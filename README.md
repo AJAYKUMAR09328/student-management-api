@@ -1,2 +1,130 @@
-# student-management-api
-Student Management REST API built with Spring Boot, MySQL, JPA, and Swagger
+Student Management API
+
+A RESTful Student Management System built using **Java Spring Boot**, **Spring Data JPA**, **MySQL**, and **Maven**. This project provides APIs to perform CRUD operations on student records.
+
+
+
+Features
+
+- Add a new student
+- View all students
+- View student by ID
+- Update student details
+- Delete a student
+- RESTful API architecture
+- Layered architecture (Controller, Service, Repository)
+
+
+
+Technologies Used
+
+- Java 21
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2
+- Maven
+- Postman
+- Git & GitHub
+
+
+
+API Endpoints
+
+<img width="1384" height="752" alt="Gemini_Generated_Image_xs2y9fxs2y9fxs2y" src="https://github.com/user-attachments/assets/9590e624-dd53-4c97-994e-94e9d7321ccb" />
+
+
+
+Screenshots
+
+Swagger UI
+<img width="1890" height="860" alt="image" src="https://github.com/user-attachments/assets/335c8248-208e-45d6-8a82-7a098cfe5108" />
+<img width="1890" height="740" alt="image" src="https://github.com/user-attachments/assets/03cbbaa5-1820-4f58-a4dc-96412d5573a8" />
+
+Get  Student by id
+<img width="1907" height="599" alt="image" src="https://github.com/user-attachments/assets/8a3cbcce-56ae-44b9-8bfa-a8d58dcf2ea8" />
+
+Get Student by email id 
+<img width="1880" height="595" alt="image" src="https://github.com/user-attachments/assets/807cd439-ba5e-472d-89a0-1910890e35f5" />
+<img width="1882" height="755" alt="image" src="https://github.com/user-attachments/assets/3cd3180e-6a93-45c1-9ff0-8e1ce0f45617" />
+
+We can download response in json 
+example:
+{
+  "id": 1,
+  "firstName": "Ajay Kumar",
+  "lastName": "Tammali",
+  "email": "tammaliajay0504@gmail.com",
+  "department": "CSE",
+  "phoneNumber": "6695021077"
+}
+
+Run the application
+
+./mvnw spring-boot:run
+
+
+Database Configuration
+
+This project uses an **H2 in-memory database** for testing and development.
+
+Update your `application.properties` as follows:
+
+properties
+
+spring.datasource.url=jdbc:h2:mem:studentdb
+
+spring.datasource.driverClassName=org.h2.Driver
+
+spring.datasource.username=sa
+
+spring.datasource.password=
+
+spring.jpa.hibernate.ddl-auto=create
+
+spring.jpa.defer-datasource-initialization=true
+
+spring.h2.console.enabled=true
+
+spring.jpa.show-sql=true
+
+ 
+H2 Database Console
+
+Open the H2 Console:
+
+http://localhost:8080/h2-console
+
+
+
+Testing
+
+The REST APIs can be tested using:
+
+- Postman
+- Swagger UI
+
+Swagger URL
+
+http://localhost:8080/swagger-ui/index.html
+
+
+Future Improvements
+
+- Student Search
+- Pagination & Sorting
+- Authentication & Authorization
+- JWT Security
+- Input Validation
+- Exception Handling
+- Docker Support
+- Unit Testing
+- Cloud Deployment
+- Student Profile Image Upload
+
+
+Author
+
+Ajay Kumar Tammali
+
+GitHub: https://github.com/AJAYKUMAR09328
